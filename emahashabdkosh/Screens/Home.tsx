@@ -99,7 +99,7 @@ const Home = ({ route }: any) => {
   
     setSearchResult([]);
     setSoundAvailable(false);
-    setUserSearch(wordToSearch); // 🔁 Ensure userSearch is updated
+    setUserSearch(wordToSearch); 
   
     const requestData = { WORD: wordToSearch };
   
