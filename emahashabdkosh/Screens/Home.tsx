@@ -579,8 +579,8 @@ const styles = StyleSheet.create({
   },
   clearIcon: {
     position: 'absolute',
-    right: 40, // Adjust the position as needed
-    top: 10, // Adjust the position as needed
+    right: 40,
+    top: 10, 
   },
 });
 
