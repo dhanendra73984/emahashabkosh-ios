@@ -33,8 +33,7 @@ const Home = ({ route }: any) => {
   const [visibleIndexes, setVisibleIndexes] = useState<number[]>([]);
   const [showAllContent, setShowAllContent] = useState(false);
   const [suggestions, setSuggestions] = useState<string[]>([]);
-  const [userSearch, setUserSearch] = useState(''); // New state to store user's search query
- 
+  const [userSearch, setUserSearch] = useState(''); 
 
   useEffect(() => {
     console.log('Selected Language in Home:', selectedLanguage);
