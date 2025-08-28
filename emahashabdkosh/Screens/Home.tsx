@@ -38,7 +38,7 @@ const Home = ({ route }: any) => {
 
   useEffect(() => {
     console.log('Selected Language in Home:', selectedLanguage);
-    // Add any logic to update the component based on the selected language
+   
   }, [selectedLanguage]);
 
   const placeholderText = selectedLanguage === 'English' ? 'Search words ' : 'शब्द खोजें';
