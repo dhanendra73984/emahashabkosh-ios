@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   modalContainer: {
     position: 'absolute',
     top: '50%',   
-    left: '10%',  // Adjust the left position as needed
+    left: '10%',  
     width: '80%', // Adjust the width as needed
     backgroundColor: 'white', // semi-transparent background
     borderRadius: 10, // Optional: Add border radius for rounded corners
