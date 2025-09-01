@@ -65,19 +65,18 @@ const styles = StyleSheet.create({
     width: '80%', 
     backgroundColor: 'white', 
     borderRadius: 10, 
-    transform: [{ translateY: -50 }], // Use a numeric value for translateY
-  },
+    transform: [{ translateY: -50 }], 
   modalHeading1: {
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 10,
     textAlign: 'center',
-    color: 'black', // Optional: Adjust text color
+    color: 'black', 
   },
   languageOption: {
     fontSize: 18,
     marginBottom: 10,
-    color: '#0D6EFD', // Optional: Adjust text color
+    color: '#0D6EFD', 
   },
 });
 
