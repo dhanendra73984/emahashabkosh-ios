@@ -10,7 +10,7 @@ function SelectLanguage(props: any) {
 
   const handleLanguageSelection = (newSelectedLanguage: any) => {
     setSelectedLanguage(newSelectedLanguage);
-    setModalVisible(false); // Close the modal after language selection
+    setModalVisible(false); 
 
     // Navigate to the Drowerindex component and pass the selected language as a parameter
     props.navigation.reset({
