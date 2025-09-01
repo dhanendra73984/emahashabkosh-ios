@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     top: '50%',   
     left: '10%',  
     width: '80%', 
-    backgroundColor: 'white', // semi-transparent background
+    backgroundColor: 'white', 
     borderRadius: 10, // Optional: Add border radius for rounded corners
     transform: [{ translateY: -50 }], // Use a numeric value for translateY
   },
