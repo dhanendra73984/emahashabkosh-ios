@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     left: '10%',  
     width: '80%', 
     backgroundColor: 'white', 
-    borderRadius: 10, // Optional: Add border radius for rounded corners
+    borderRadius: 10, 
     transform: [{ translateY: -50 }], // Use a numeric value for translateY
   },
   modalHeading1: {
