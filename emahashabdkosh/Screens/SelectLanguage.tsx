@@ -12,7 +12,7 @@ function SelectLanguage(props: any) {
     setSelectedLanguage(newSelectedLanguage);
     setModalVisible(false); 
 
-    // Navigate to the Drowerindex component and pass the selected language as a parameter
+   
     props.navigation.reset({
       index: 0,
       routes: [{ name: 'Drowerindex', params: { selectedLanguage: newSelectedLanguage || 'English' } }],
