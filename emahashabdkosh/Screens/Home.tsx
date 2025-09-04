@@ -413,7 +413,7 @@ const handleSoundIconPress = () => {
       {typeof searchResult[0] === 'string' ? (
         <Text style={styles.blueText}>{searchResult[0]}</Text>
       ) : (
-        // Handle SearchResultObject, you might want to display specific properties here
+       
         // For example: <Text>{searchResult[0].englishDescription}</Text>
         <Text>{/* Your handling for SearchResultObject */}</Text>
       )}
