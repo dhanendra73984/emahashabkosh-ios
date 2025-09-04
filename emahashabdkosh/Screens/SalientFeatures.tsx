@@ -47,7 +47,7 @@ const SalientFeatures = (props: any) => {
       
       <WebView
         originWhitelist={['*']}
-        source={{ html: htmlContent ?? '' }} // Ensure it never passes null
+        source={{ html: htmlContent ?? '' }} 
         javaScriptEnabled={true}
         bouncesZoom={true}
         scalesPageToFit={false}
