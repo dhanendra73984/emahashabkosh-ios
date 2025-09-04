@@ -56,7 +56,7 @@ const Home = ({ route }: any) => {
 
 
 
-  const [soundAvailable, setSoundAvailable] = useState(false); // State to track sound availability
+  const [soundAvailable, setSoundAvailable] = useState(false); 
 
   const clearSearchBoxof = () => {
     setSearchQuery('');
