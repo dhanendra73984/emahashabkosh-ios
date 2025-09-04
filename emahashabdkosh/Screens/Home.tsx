@@ -210,7 +210,7 @@ const handleSoundIconPress = () => {
     setSearchQuery(selectedSuggestion);
     setSuggestions([]);
   
-    // Trigger search for selected suggestion
+   
     handleSearchIconPress(selectedSuggestion);
   };
   
