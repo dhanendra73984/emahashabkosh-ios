@@ -54,37 +54,7 @@ const Home = ({ route }: any) => {
 
 
 
-  // const handleSearchIconPress = () => {
-  //   const requestData = {
-  //     WORD: searchQuery.toLowerCase(),
-  //   };
-  
-  //   axios.post('http://mobiledictionary.rb-aai.in/SailService.asmx/GetWordData', requestData,{
-  //     timeout: 5000,
-  //   })
-  //     .then(response => {
-  //       const apiData = response.data.d;
-  //       if (apiData && Array.isArray(apiData) && apiData.length > 0) {
-  //         setSearchResult(apiData);
-         
-         
-  //       } else {
-  //         setSearchResult(['No data found for the given word.']);
-          
-  //       }
-  //       clearSearchBox();
-  //       // Reset suggestions when search button is pressed
-  //       setSuggestions([]);
-  //     })
-  //     .catch(error => {
-  //       console.error('API Error:', error);
-  //       setSearchResult(['No data found for the given word.']); // Set an error message
-  //       clearSearchBox();
-  //       // Reset suggestions when search button is pressed
-  //       setSuggestions([]);
-        
-  //     });
-  // };
+
 
   const [soundAvailable, setSoundAvailable] = useState(false); // State to track sound availability
 
