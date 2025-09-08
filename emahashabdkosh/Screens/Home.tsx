@@ -166,7 +166,7 @@ const handleSoundIconPress = () => {
   const handleSearchInputChange = (text: string) => {
     setSearchQuery(text);
     setUserSearch(text);
-    setSearchResult([]); // ✅ Clear previous result immediately on new input
+    setSearchResult([]); 
   
     console.log('Search Query:', text);
   
