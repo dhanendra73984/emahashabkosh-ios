@@ -285,7 +285,7 @@ const handleSoundIconPress = () => {
       {typeof searchResult[0] === 'string' ? searchResult[0].split('$')[1] : ''}
     </Text>
 
-    {/* Show All/Hide All Button */}
+ 
     <View style={styles.showAllButton}>
       <TouchableOpacity onPress={toggleAllVisibility}>
         <Text style={styles.toggelTextshow}>
