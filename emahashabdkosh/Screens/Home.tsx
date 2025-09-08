@@ -367,7 +367,7 @@ const handleSoundIconPress = () => {
         <Text style={styles.blueText}>{searchResult[0]}</Text>
       ) : (
        
-        // For example: <Text>{searchResult[0].englishDescription}</Text>
+     
         <Text>{/* Your handling for SearchResultObject */}</Text>
       )}
     </>
