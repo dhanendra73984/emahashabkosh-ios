@@ -267,7 +267,7 @@ const handleSoundIconPress = () => {
                       <TouchableOpacity onPress={() => handleSuggestionSelect(suggestionWord)}>
                         <View style={styles.suggestionItemContainer}>
                           <Text style={styles.suggestionItemWord}>{suggestionWord}</Text>
-                          {/* <Text style={styles.suggestionItemDescription}>{suggestionDescription}</Text> */}
+                         
                         </View>
                       </TouchableOpacity>
                     );
