@@ -106,24 +106,7 @@ const Home = ({ route }: any) => {
   
   
 
-  // const handleSoundIconPress = () => {
-  //   // Only play the sound if it is available
-  //   console.log('Search Query in handleSoundIconPress:', userSearch);
-  //   console.log('Encoded Search Query:', encodeURIComponent(userSearch));
-  
-  //   if (soundAvailable) {
-  //     const sound = new Sound(`https://lilaonmobile.rb-aai.in/emaha/Audio/${encodeURIComponent(userSearch)}.mp3`, Sound.MAIN_BUNDLE, (error) => {
-  //       if (error) {
-  //         console.error('Error loading sound:', error);
-  //       } else {
-  //         console.log('Sound loaded successfully!');
-  //         sound.play(() => {
-  //           sound.release();
-  //         });
-  //       }
-  //     });
-  //   }
-  // };
+
 
   
 const handleSoundIconPress = () => {
