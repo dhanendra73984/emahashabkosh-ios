@@ -216,13 +216,7 @@ const handleSoundIconPress = () => {
         {/*
        
 
-        <View style={styles.searchContainer}>
-        <TextInput
-            style={styles.searchBox}
-            placeholder={placeholderText}
-            value={searchQuery}
-            onChangeText={handleSearchInputChange} // Update the search query on input change
-          />
+      
             {searchQuery.length > 0 && (
             <TouchableOpacity onPress={clearSearchBoxof}>
               <MaterialIcons name="clear" size={24} color="black" style={styles.searchIcon} />
