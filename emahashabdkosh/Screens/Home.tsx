@@ -214,11 +214,7 @@ const handleSoundIconPress = () => {
     <ScrollView>
       <View style={styles.container}>
         {/*
-       
-
-      
-           
-              {/* Show suggestions */}
+        {/* Show suggestions */}
               {suggestions.length > 0 && (
               <View style={styles.suggestionsContainer}>
                                 <FlatList
