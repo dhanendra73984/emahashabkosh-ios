@@ -214,7 +214,7 @@ const handleSoundIconPress = () => {
     <ScrollView>
       <View style={styles.container}>
         {/* <Text>Home</Text>
-        <Text>Selected Language from SelectLanguage: {selectedLanguage || 'English'}</Text> */}
+       
 
         <View style={styles.searchContainer}>
         <TextInput
