@@ -217,11 +217,7 @@ const handleSoundIconPress = () => {
        
 
       
-            {searchQuery.length > 0 && (
-            <TouchableOpacity onPress={clearSearchBoxof}>
-              <MaterialIcons name="clear" size={24} color="black" style={styles.searchIcon} />
-            </TouchableOpacity>
-          )}
+            {
          <TouchableOpacity onPress={() => handleSearchIconPress()}>
             <MaterialIcons name="search" size={32} color="black" style={styles.searchIcon} />
           </TouchableOpacity>
