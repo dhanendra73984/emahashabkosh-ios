@@ -329,7 +329,7 @@ const handleSoundIconPress = () => {
       ) : (
        
      
-        <Text>{/* Your handling for SearchResultObject */}</Text>
+        <Text>{/* SearchResultObject */}</Text>
       )}
     </>
   ) : (
