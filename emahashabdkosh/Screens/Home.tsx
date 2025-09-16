@@ -217,11 +217,7 @@ const handleSoundIconPress = () => {
        
 
       
-            {
-         <TouchableOpacity onPress={() => handleSearchIconPress()}>
-            <MaterialIcons name="search" size={32} color="black" style={styles.searchIcon} />
-          </TouchableOpacity>
-        </View>
+           
               {/* Show suggestions */}
               {suggestions.length > 0 && (
               <View style={styles.suggestionsContainer}>
