@@ -213,7 +213,7 @@ const handleSoundIconPress = () => {
     
     <ScrollView>
       <View style={styles.container}>
-        {/* <Text>Home</Text>
+        {/*
        
 
         <View style={styles.searchContainer}>
