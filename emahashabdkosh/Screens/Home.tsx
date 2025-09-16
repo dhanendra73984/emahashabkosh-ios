@@ -142,27 +142,6 @@ const handleSoundIconPress = () => {
 };
 
 
-  // const handleSearchInputChange = (text: string) => {
-  //   setSearchQuery(text);
-  
-  //   if (text.length >= 3) {
-  //     const requestData = {
-  //       prefix: text
-  //     };
-  
-  //     axios.post('http://mobiledictionary.rb-aai.in/SailService.asmx/GetCustomers', requestData)
-  //       .then(response => {
-  //         const suggestionData = response.data.d || [];
-  //         // Update state with suggestions
-  //         setSuggestions(suggestionData);
-  //       })
-  //       .catch(error => {
-  //         console.error('API Error:', error);
-  //         // Handle error scenarios
-  //       });
-  //   }
-  // };
-
   const handleSearchInputChange = (text: string) => {
     setSearchQuery(text);
     setUserSearch(text);
