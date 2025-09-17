@@ -270,7 +270,7 @@ const handleSoundIconPress = () => {
         )}
 
 
-            {/* Show sound icon if audio is available */}
+          
          {/* Show sound icon if audio is available */}
         {/* Show sound icon if audio is available */}
 
