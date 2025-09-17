@@ -311,7 +311,7 @@ const handleSoundIconPress = () => {
                   </React.Fragment>
                 ))}
               </View>
-              {/* Add a line after each item */}
+             
               {index < searchResult.length - 1 && <View style={styles.line} />}
             </View>
           )}
