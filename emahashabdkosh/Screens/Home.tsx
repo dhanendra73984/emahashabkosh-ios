@@ -272,7 +272,7 @@ const handleSoundIconPress = () => {
 
           
         
-        {/* Show sound icon if audio is available */}
+       
 
 
     {/* Buttons for each index */}
