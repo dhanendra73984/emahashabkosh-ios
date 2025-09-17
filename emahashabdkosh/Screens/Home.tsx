@@ -292,7 +292,7 @@ const handleSoundIconPress = () => {
               </Text>
             </View>
           </TouchableWithoutFeedback>
-          {/* Display content if the button is pressed */}
+         
           {visibleIndexes.includes(index) && (
             <View>
               <View style={styles.wordContainer}>
