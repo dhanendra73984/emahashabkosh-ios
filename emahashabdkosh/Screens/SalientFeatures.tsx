@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import WebView from 'react-native-webview';
 
 const dummyHtmlData = {
+
+  
   English: `    <h1 style="font-size: 30px; line-height: 1.6;">Salient Features:</h1>
     <ul style="font-size: 24px; line-height: 1.6;">
       <li>Supports Unicode Font for Devanagari script</li>
