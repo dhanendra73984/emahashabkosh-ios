@@ -495,6 +495,8 @@ const styles = StyleSheet.create({
     right: 40,
     top: 10, 
   },
+
+
 });
 
 
