@@ -4,6 +4,9 @@ import axios from 'axios';
 import WebView from 'react-native-webview';
 
 const Foreword = (props: any) => {
+
+
+  
   const { selectedLanguage } = props.route.params;
 
   const [htmlContent, setHtmlContent] = useState<string | null>(null);
