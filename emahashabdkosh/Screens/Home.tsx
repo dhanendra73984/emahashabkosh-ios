@@ -119,7 +119,7 @@ const handleSoundIconPress = () => {
   // For remote files, use undefined instead of null
   const sound = new Sound(
     audioUrl,
-    undefined, // Correct way to handle remote files
+    undefined, 
     (error) => {
       if (error) {
         console.error('Sound loading error:', {
