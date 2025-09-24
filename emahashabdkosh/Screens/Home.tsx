@@ -8,6 +8,8 @@ LogBox.ignoreAllLogs();
 
 
 
+
+
 interface SearchResultObject {
   englishUsage: string;
   hindiUsage: string;
